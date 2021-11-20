@@ -45,9 +45,7 @@ logo = """
    RANA RAJPOOT
    𝓡𝓐𝓝𝓐 𝓡𝓐𝓙𝓟𝓞𝓞𝓣 ▄︻̷̿┻̿═━一
 \033[1;91m=======================================
-\033[1;96mAuthor  \033[1;93m: \033[1;92mRANARAJPOOT
-\033[1;96mYouTube \033[1;93m: \033[1;92mRDX ADAN
-\033[1;96mGitHub  \033[1;93m: \033[1;92mhttps://github.com/lovehacker/love
+\033[1;96mAuthor  \033[1;93m: \033[1;92mRANA RAJPOOT
 \033[1;96mBlogger \033[1;93m: \033[1;92mhttps://www.facebook.com/subhan.shahzad.52012
 \033[1;91m======================================="""
 def tik():
@@ -91,7 +89,7 @@ while (loop == 'true'):
 def login():
 	os.system('clear')
 	try:
-		toket = open('login.txt','r')
+		token = open('login.txt','r')
 		menu() 
 	except (KeyError,IOError):
 		os.system('clear')
