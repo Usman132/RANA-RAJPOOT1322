@@ -64,9 +64,7 @@ vuln = "\033[32mVuln"
 os.system("clear")
 print "\033[1;96m ========================================="
 print  """\033[1;91m=======================================
-\033[1;96mAuthor  \033[1;93m: \033[1;92mRANARAJPOOT
-\033[1;96mYouTube \033[1;93m: \033[1;92mRDX ADAN
-\033[1;96mGitHub  \033[1;93m: \033[1;92mhttps://github.com/lovehacker/love
+\033[1;96mAuthor  \033[1;93m: \033[1;92mRANA RAJPOOT
 \033[1;96mpage \033[1;93m: \033[1;92mhttps://www.facebook.com/subhan.shahzad.52012
 \033[1;91m======================================="""
 print " \x1b[1;93m============================================================="
@@ -89,7 +87,7 @@ while (loop == 'true'):
 def login():
 	os.system('clear')
 	try:
-		token = open('login.txt','r')
+		toket = open('login.txt','r')
 		menu() 
 	except (KeyError,IOError):
 		os.system('clear')
